@@ -16,7 +16,6 @@
 <a href="/register">Register</a> -->
 
 
-
 <!-- include header -->
 <%- include('include/_header') %>
 <!-- /include header -->
@@ -28,7 +27,7 @@
   <section id="wrapper" class="login-register">
     <div class="login-box login-sidebar">
       <div class="white-box">
-        <form class="form-horizontal form-material" id="loginform" action="/dashboard">
+        <form class="form-horizontal form-material" id="loginform" action="dashboard.html">
           <a href="#" class="text-center db"><img src="../plugins/images/logo-icn.png" alt="Home" /><br><br><br>
           
           <div class="form-group m-t-40">
@@ -76,7 +75,8 @@
             </div>
           </div>
         </form>
-        <form class="form-horizontal" id="recoverform" action="/index.ejs">
+        <form class="form-horizontal" id="recoverform" >
+          <!-- action="/index.ejs"> -->
           <div class="form-group ">
             <div class="col-xs-12">
               <h3>Recover Password</h3>

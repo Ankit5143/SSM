@@ -1,0 +1,14 @@
+clear
+git add. or git add --a
+git status
+git push origin master
+git commit -m "Abc"
+git rm -r abc
+git commit -m "Added abc"
+touch abc
+git remote add origin (path)
+git init
+ls
+git config --global user.name "Ankit Panchal"
+git config --global user.email "ankit.panchal@parkhya.com"
+
